@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "joph-cli"
+version = "1.0.0"
+description = "Joph rectangle calculator CLI"
+requires-python = ">=3.10"
+
+
+[project.scripts]
+joph = "joph.cli:main"
